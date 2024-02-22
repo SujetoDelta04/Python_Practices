@@ -2,4 +2,4 @@
 print("Digite su nombre")
 name=input()
 
-print("Hola " + name + " .Saludos")
+print("Hola " + name + ". Saludos")
