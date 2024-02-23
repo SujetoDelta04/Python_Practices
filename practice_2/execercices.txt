@@ -1,0 +1,15 @@
+1. Problema: Sistema de Gestión de Biblioteca
+
+Descripción:
+Desarrolla un sistema de gestión de biblioteca que permita a los usuarios realizar las siguientes acciones:
+
+Agregar un nuevo libro al sistema con los siguientes detalles: título, autor, género y año de publicación.
+Mostrar todos los libros disponibles en la biblioteca.
+Permitir a los usuarios buscar libros por título, autor o género.
+Permitir a los usuarios solicitar prestado un libro específico.
+Permitir a los usuarios devolver un libro que han tomado prestado.
+Requisitos adicionales:
+
+Debes usar una estructura de datos adecuada para almacenar la información de los libros, como un diccionario o una lista de diccionarios.
+Debes implementar funciones o clases para cada una de las acciones mencionadas anteriormente.
+El sistema debe ser interactivo, permitiendo a los usuarios seleccionar las opciones y proporcionando la salida correspondiente.
