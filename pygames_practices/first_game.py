@@ -14,10 +14,21 @@ Verde=(12, 150, 3)
 
 patanlla.fill(Blanco)
 
-rectangulo=pygame.draw.rect(patanlla, Rojo, (300, 300, 200, 150))
-linea=pygame.draw.line(patanlla, Negro, (100, 150), (200, 100), 10)
-circulo=pygame.draw.circle(patanlla, Azul, (400, 200), 40, 0)
+#Icono de ventana y fondo
 
+fondo=pygame.image.load("C:/Users/SALA 1/Desktop/python_practices/pygames_practices/fondo.png")
+patanlla.blit(fondo, (0,0))
+
+icon=pygame.image.load("C:/Users/SALA 1/Desktop/python_practices/pygames_practices/img/icon.png")
+pygame.display.set_icon(icon)
+
+#Figuras
+
+rectangulo=pygame.draw.rect(patanlla, Rojo, (300, 300, 200, 150))
+linea=pygame.draw.line(patanlla, Negro, (100, 150), (200, -200), 10)
+circulo=pygame.draw.circle(patanlla, Azul, (400, 200), 40, 0)
+puntos=[(100, 200), (200, 150), (150, 150)]
+poligono=pygame.draw.polygon(patanlla, Verde, puntos, 10)
 
 #Bucle
 while True:
